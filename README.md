@@ -56,9 +56,9 @@ python src/scenario.py --db-path data/revenue.db --output outputs/scenario_resul
 
 ---
 
-## What I built for you (high level)
+## What I built
 - Reproducible pipeline that assembles features with SQL/Pandas and writes to a SQLite DB.
-- Forecasting module supporting Prophet and SARIMAX (example code + training/evaluation functions).
+- Forecasting module supporting Prophet and SARIMAX (code + training/evaluation functions).
 - Elasticity module using cohort-level regressions with diagnostic outputs and a simple instrumental-variable placeholder.
 - Scenario engine implementing deterministic and Monte Carlo simulations to produce revenue & margin distributions.
 - Excel export that can be opened by analysts and used as a source for Power BI.
@@ -70,19 +70,7 @@ python src/scenario.py --db-path data/revenue.db --output outputs/scenario_resul
 - requirements.txt
 
 ---
+## Sample output and the Dashboard
 
-## Next steps to productionize
-1. Replace SQLite with your production data warehouse (Redshift, BigQuery, Snowflake).
-2. Hook forecasting outputs into a scheduling system (Airflow / Prefect) and model retraining pipeline.
-3. Implement randomized pricing experiments for causal elasticity estimates.
-4. Implement a Power BI dataset or direct connector (instructions in `notebooks/`).
-
----
-
-## Contact / Notes
-This scaffold uses **synthetic data** and example code. It is intended to be a starting point — not a drop-in, production system. If you'd like, I can:
-- Add CI scripts, Dockerfile, and unit tests.
-- Create a Power BI `.pbix` template (requires Power BI Desktop to edit).
-- Convert code to a microservice for automated price push (with guardrails).
-
-Generated on: 2025-11-15T13:27:55.502073Z
+<img width="641" height="463" alt="image" src="https://github.com/user-attachments/assets/756b4966-15f7-4294-907c-c496bad5cb9e" />
+<img width="838" height="541" alt="image" src="https://github.com/user-attachments/assets/11fe53d1-ca1a-47a8-a533-da294edfe7d1" />
