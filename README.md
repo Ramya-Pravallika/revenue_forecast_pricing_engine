@@ -1,6 +1,6 @@
 # Revenue Forecasting & Pricing Insights Engine
 
-**Languages / Tools**: Python (Prophet / ARIMA), SQL (SQLite example), Excel, Power BI (instructions), Statistics
+**Languages / Tools**: Python (Prophet / ARIMA), SQL (SQLite), Excel, Power BI, Statistics
 
 **What this repository contains**  
 This repository is a complete, runnable scaffold for a revenue forecasting + pricing insights engine. It contains:
@@ -15,7 +15,7 @@ This repository is a complete, runnable scaffold for a revenue forecasting + pri
 - `notebooks/` — a Jupyter notebook walkthrough (`walkthrough.ipynb`) that demonstrates the end-to-end flow with the synthetic data.
 - `outputs/` — example Excel outputs and CSVs created by the pipeline.
 - `requirements.txt` — Python package list.
-- `README.md` — this file (you are reading it).
+- `README.md` — this file.
 
 ---
 
@@ -23,7 +23,7 @@ This repository is a complete, runnable scaffold for a revenue forecasting + pri
 Retail businesses and subscription services need accurate revenue forecasts and pricing recommendations to maximize margin without harming conversion. This project does:
 1. Build demand and revenue forecasts that combine historical sales, seasonality, promotions, and external market indicators.
 2. Estimate cohort-level price elasticities to identify pricing bands.
-3. Provide a scenario (what-if) engine to simulate promotional and price-change impacts on revenue & margin.
+3. Provide a scenario engine to simulate promotional and price-change impacts on revenue & margin.
 4. Deliver outputs suitable for business consumption (Excel + Power BI).
 
 ---
